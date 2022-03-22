@@ -11,16 +11,22 @@ namespace cviceni_07
         public abstract double Surface();
         public int CompareTo(object obj)
         {
-            Objekt2D otherSurface = ((Objekt2D)obj);
-            if(otherSurface.Surface() < Surface())
-            {
-                return 1;
+            
+            if (obj == null) { 
+                return 1; 
             }
-            if (otherSurface.Surface() > Surface())
+            Objekt2D otherSurface = obj as Objekt2D;
+            if (otherSurface != null)
             {
-                return -1;
+                return this.Surface().CompareTo(otherSurface.Surface());
             }
-            else { return 0; }
+     
+            else {
+                throw new ArgumentException("not possible to compare");
+            }
+            
+   
+            
         }
     }
 }

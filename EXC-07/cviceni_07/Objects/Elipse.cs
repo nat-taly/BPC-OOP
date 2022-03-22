@@ -8,18 +8,18 @@ namespace cviceni_07.Objects
 {
     class Elipse : Objekt2D
     {
-        private double main_halfaxis, side_halfaxis;
+        private double a, b;
 
-        public Elipse(double main_halfaxis, double side_halfaxis)
+        public Elipse(double a, double b)
         {
-            this.main_halfaxis = main_halfaxis;
-            this.side_halfaxis = side_halfaxis;
+            this.a = a;
+            this.b = b;
         }
 
-        public override double Surface() => main_halfaxis * side_halfaxis * Math.PI;
+        public override double Surface() => a * b * Math.PI;
         public override string ToString()
         {
-            return "Elipse: a = " + main_halfaxis + " b = " + side_halfaxis + " S = " + Math.Round(Surface(), 2);
+            return "Elipse: a = " + a + " b = " + b + " S = " + Math.Round(Surface(), 2);
         }
     }
 }

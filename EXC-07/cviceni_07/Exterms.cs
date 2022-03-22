@@ -10,15 +10,9 @@ namespace cviceni_07
     {
         public static T Smallest<T>(T[] pole) where T : IComparable
         {
-            T min;
-            try
-            {
-                min = pole[0];
-            } 
-            catch (NullReferenceException e)
-            {
-                throw new SystemException("Empty");
-            }
+            if(pole.Length == 0) {  throw new ArgumentException(""); }
+
+            T min = pole[0];
             for(int i=0; i< pole.Length; i++)
             {
                 if (min.CompareTo(pole[i]) > 0)
@@ -31,15 +25,9 @@ namespace cviceni_07
         }
         public static T Biggest<T>(T[] pole) where T : IComparable
         {
-            T max;
-            try
-            {
-                max = pole[0];
-            }
-            catch (NullReferenceException e)
-            {
-                throw new SystemException("Empty");
-            }
+            if(pole.Length == 0) { throw new ArgumentException(""); }
+
+            T max = pole[0];
             for (int i = 0; i < pole.Length; i++)
             {
                 if (max.CompareTo(pole[i]) < 0)
@@ -48,7 +36,6 @@ namespace cviceni_07
                 }
             }
             return max;
-
         }
     }
 }
