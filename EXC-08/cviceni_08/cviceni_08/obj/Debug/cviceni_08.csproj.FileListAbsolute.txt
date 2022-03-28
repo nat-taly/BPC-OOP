@@ -1,0 +1,7 @@
+C:\Users\vycho\Desktop\BPC-OOP-Excercses\EXC-08\cviceni_08\cviceni_08\bin\Debug\cviceni_08.exe.config
+C:\Users\vycho\Desktop\BPC-OOP-Excercses\EXC-08\cviceni_08\cviceni_08\bin\Debug\cviceni_08.exe
+C:\Users\vycho\Desktop\BPC-OOP-Excercses\EXC-08\cviceni_08\cviceni_08\bin\Debug\cviceni_08.pdb
+C:\Users\vycho\Desktop\BPC-OOP-Excercses\EXC-08\cviceni_08\cviceni_08\obj\Debug\cviceni_08.csproj.AssemblyReference.cache
+C:\Users\vycho\Desktop\BPC-OOP-Excercses\EXC-08\cviceni_08\cviceni_08\obj\Debug\cviceni_08.csproj.CoreCompileInputs.cache
+C:\Users\vycho\Desktop\BPC-OOP-Excercses\EXC-08\cviceni_08\cviceni_08\obj\Debug\cviceni_08.exe
+C:\Users\vycho\Desktop\BPC-OOP-Excercses\EXC-08\cviceni_08\cviceni_08\obj\Debug\cviceni_08.pdb
